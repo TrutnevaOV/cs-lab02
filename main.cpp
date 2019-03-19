@@ -16,4 +16,9 @@ int main()
         cout << a;
     else
         cout << b;
+    cout << " Minimum = ";
+    if (a < b)
+        cout << a;
+    else
+        cout << b;
 }
